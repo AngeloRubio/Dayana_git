@@ -1,23 +1,32 @@
 .grid-container {
-  /* display: grid;
-    grid-template-columns: repeat(auto-fill, 230px);
-    gap: 20px;
-    justify-content: center; */
-
-  /* grid-template-rows: masonry; */
-
   margin: 0 auto;
 }
 
 .grid-item {
-  /*width: 230px;
-     height: 200px;*/
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 15px;
   background-color: lightgray;
+  position: relative;
 }
 
-.grid-item:hover {
-  filter: opacity(0.9);
+
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  background-color: #0EA5E9 ;
+  padding: 10px;
+  color:#E0F2FE;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
+
+.grid-item:hover .overlay {
+  opacity: 0.5;
+}
+
+

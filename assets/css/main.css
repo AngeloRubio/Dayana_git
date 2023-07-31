@@ -1,6 +1,6 @@
 .inicio {
   width: 100%;
-  height: 45vh !important;
+  height: 25vh !important;
   background-color: #020202;
   position: relative;
 }
@@ -12,11 +12,12 @@
 
 .Nombre {
   color: rgb(244, 225, 198);
-  font-size: 135px;
+  font-size: 80.3px;
   color: antiquewhite;
   font-family: "Rubik Microbe", cursive;
   margin-bottom: 0;
 }
+
 .subtitulo {
   color: white;
   font-size: 22px;
@@ -32,8 +33,7 @@ img {
 }
 
 .texto1 {
-  /*font-family: 'Kalam', cursive;
-    font-family: 'Satisfy', cursive;*/
+
   font-family: "Fredericka the Great", cursive;
   font-size: 25px;
   padding: 5%;

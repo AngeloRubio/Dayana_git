@@ -192,9 +192,9 @@ x = setInterval(function () {
           this.shards = [];
 
           let shardCount =
-              (opts.fireworkBaseShards +
-                opts.fireworkAddedShards * Math.random()) |
-              0,
+            (opts.fireworkBaseShards +
+              opts.fireworkAddedShards * Math.random()) |
+            0,
             angle = Tau / shardCount,
             cos = Math.cos(angle),
             sin = Math.sin(angle),
@@ -276,7 +276,7 @@ x = setInterval(function () {
           (opts.balloonBaseSize + opts.balloonAddedSize * Math.random()) | 0;
 
         let rad =
-            opts.balloonBaseRadian + opts.balloonAddedRadian * Math.random(),
+          opts.balloonBaseRadian + opts.balloonAddedRadian * Math.random(),
           vel = opts.balloonBaseVel + opts.balloonAddedVel * Math.random();
 
         this.vx = Math.cos(rad) * vel;
@@ -428,11 +428,11 @@ x = setInterval(function () {
         new Letter(
           opts.strings[i][j],
           j * opts.charSpacing +
-            opts.charSpacing / 2 -
-            (opts.strings[i].length * opts.charSize) / 2,
+          opts.charSpacing / 2 -
+          (opts.strings[i].length * opts.charSize) / 2,
           i * opts.lineHeight +
-            opts.lineHeight / 2 -
-            (opts.strings.length * opts.lineHeight) / 2
+          opts.lineHeight / 2 -
+          (opts.strings.length * opts.lineHeight) / 2
         )
       );
     }
