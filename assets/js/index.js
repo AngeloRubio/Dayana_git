@@ -5,7 +5,7 @@ const canvasC = document.getElementById("c");
 
 const config = {
   birthdate: "AUGUST 10, 2023",
-  name: "DAYANA TKM ❤️ GUAPA",
+  name: "TEAMODORO BABY ❤️",
 };
 
 function hideEverything() {

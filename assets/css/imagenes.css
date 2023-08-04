@@ -22,28 +22,10 @@
 }
 
 .custom-popover {
-  --bs-popover-max-width: 300px;
-  --bs-popover-bg: #ffffff; /* Cambia el color de fondo */
-  --bs-popover-border-color: #d1d1d1; /* Cambia el color del borde */
-  --bs-popover-border-radius: 10px; /* Añade bordes redondeados */
-  --bs-popover-header-bg: #f5f5f5; /* Cambia el color de fondo del encabezado */
-  --bs-popover-header-color: #333333; /* Cambia el color del texto del encabezado */
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: var(--bd-violet-bg);
+  --bs-popover-header-bg: var(--bd-violet-bg);
+  --bs-popover-header-color: var(--bs-white);
   --bs-popover-body-padding-x: 1rem;
   --bs-popover-body-padding-y: .5rem;
-}
-
-/* Cambia los estilos del contenido del popover */
-.custom-popover .popover-body {
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-/* Cambia los estilos del título del popover */
-.custom-popover .popover-header {
-  font-weight: bold;
-}
-
-/* Cambia los estilos de la flecha del popover */
-.custom-popover .popover-arrow {
-  border-color: var(--bs-popover-border-color);
 }
