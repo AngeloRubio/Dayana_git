@@ -1,8 +1,10 @@
 .grid-container {
+
   margin: 0 auto;
 }
 
 .grid-item {
+  
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 15px;
@@ -10,23 +12,11 @@
   position: relative;
 }
 
-
-
-.overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 15px;
-  background-color: #0EA5E9 ;
-  padding: 10px;
-  color:#E0F2FE;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.grid-item:hover  .overlay{
+  filter: opacity(0.9);
 }
 
-.grid-item:hover .overlay {
-  opacity: 0.5;
+.grid-item img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #ccc; 
 }
-
-
