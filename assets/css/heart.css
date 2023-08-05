@@ -1,45 +1,22 @@
-/* body{
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    background: rgb(9,4,26);
-} */
+.texto1 {
+    text-align: center;
+    margin-top: 100px;
+}
 
 .heart {
-    height: 100px;
-    width: 100px;
-    background-color: red;
+    display: inline-block;
     position: relative;
-    margin: 100px auto;
-    transform: rotate(-45deg);
+}
+
+.heart-icon {
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
     animation: latir 0.8s ease-in-out alternate infinite;
-}
-
-.heart::before,
-.heart::after {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    background-color: red;
-}
-
-.heart::before {
-    left: 0;
-    top: -50px;
-    
-}
-
-.heart::after {
-    left: 50px;
-    top: 0;
 }
 
 @keyframes latir {
     100% {
-        transform: scale(1.3) rotate(-45deg);
+        transform: scale(1.3);
     }
 }
