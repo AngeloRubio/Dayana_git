@@ -3,7 +3,7 @@ const head = document.getElementById("head");
 const giftbox = document.getElementById("merrywrap");
 
 const config = {
-  birthdate: "AUGUST 4, 2023",
+  birthdate: "AUGUST 10, 2023",
   name: "TEAMODORO BABY ❤️",
 };
 
