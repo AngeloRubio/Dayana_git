@@ -1,13 +1,9 @@
 .inicio {
-  width: 100%;
-  height: 25vh !important;
   background-color: #020202;
-  position: relative;
 }
 
 .titulo {
-  width: 96%;
-  position: absolute;
+  color: white;
 }
 
 .Nombre {
